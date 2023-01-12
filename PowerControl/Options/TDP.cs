@@ -10,7 +10,7 @@ namespace PowerControl.Options
             Name = "TDP",
             PersistentKey = "TDP",
             PersistOnCreate = false,
-            Options = { "3W", "4W", "5W", "6W", "7W", "8W", "10W", "12W", "15W" },
+            Options = { "3W", "4W", "5W", "6W", "7W", "8W", "10W", "12W", "15W", "17W", "20W"  },
             ApplyDelay = 1000,
             ResetValue = () => { return "15W"; },
             ActiveOption = "?",
